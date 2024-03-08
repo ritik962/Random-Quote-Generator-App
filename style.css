@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+section {
+    min-height: 100vh;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .heading {
+    font-size: 28px;
+    font-weight: 600;
+    text-shadow:2px 2px 2px black;
+    
+}
+
+.container {
+    padding: 20px;
+    width: 80%;
+    max-width: 450px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.container .para {
+    font-size: 20px;
+    margin: 10px;
+    
+}
+
+.container .btn {
+    margin: 10px;
+    width: 50%;
+    outline: none;
+    padding: 10px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+
+.container .btn:hover {
+    background-color: black;
+    color: lavender;
+}
+
+.container .btn:active {
+    transform: scale(1.025);
+}
+
+.container .author {
+    font-size: 18px;
+    margin: 10px;
+}
